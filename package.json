@@ -5,12 +5,16 @@
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-scripts": "2.1.3"
+    "react-scripts": "2.1.3",
+    "styled-components": "^4.1.3",
+    "styled-system": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "figma:update": "figmagick",
+    "publish": "npm run figma:update && npm run build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -21,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "figmagick-cli": "0.0.2"
+  }
 }

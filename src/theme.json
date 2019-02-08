@@ -1,0 +1,44 @@
+{
+  "colors": {
+    "Primary Color": "#707d8a",
+    "MyGradient": "linear-gradient(89.99999914622626deg, rgba(124, 124, 124, 1) 0%, rgba(3, 233, 247, 0.2784313725490196) 99.99999999999996%);",
+    "Secondary Color": "#4ecdc4",
+    "Tertiary Color": "#c7f464",
+    "Title Color": "#ff6b6b",
+    "SubtitleColor": "#c44d58"
+  },
+  "fonts": {
+    "H1": {
+      "fontFamily": "Barlow",
+      "fontSize": 32,
+      "fontWeight": 900,
+      "lineHeightPx": 16,
+      "letterSpacing": 0.75
+    },
+    "H2": {
+      "fontFamily": "Barlow",
+      "fontSize": 28,
+      "fontWeight": 700,
+      "lineHeightPx": 16,
+      "letterSpacing": 0.75
+    },
+    "H3": {
+      "fontFamily": "Barlow",
+      "fontSize": 24,
+      "fontWeight": 500,
+      "lineHeightPx": 16,
+      "letterSpacing": 0.75
+    }
+  },
+  "effects": {
+    "SoftShadow": "0px 4px 4px rgba(0, 0, 0, 0.25098039215686274)",
+    "HardShadow": "0px 8px 16px rgba(0, 0, 0, 0.30196078431372547)"
+  },
+  "spacing": {
+    "tiny": 8,
+    "small": 16,
+    "medium": 32,
+    "large": 64,
+    "x-large": 128
+  }
+}
